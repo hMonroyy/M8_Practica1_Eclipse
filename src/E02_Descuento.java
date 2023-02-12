@@ -34,6 +34,9 @@ public class E02_Descuento {
 		
 		BufferedReader entrada = new BufferedReader(new InputStreamReader(System.in));
 		
+		System.out.println("Aplicar descuento a productos, creado por Héctor Monroy");
+		System.out.println("========================================================");
+		
 		System.out.println("Entra el precio inicial: ");
 		double preIni = Double.parseDouble(entrada.readLine());
 		
